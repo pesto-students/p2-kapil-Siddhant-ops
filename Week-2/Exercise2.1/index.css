@@ -338,4 +338,21 @@ main .cardGrid .card a {
   background: #131313;
   color: aliceblue;
 }
+
+footer {
+  width: 100vw;
+  padding: 0 7rem 2rem;
+  -webkit-box-shadow: 1px 1px 10px #000;
+          box-shadow: 1px 1px 10px #000;
+}
+
+footer h1 {
+  font-size: 8rem;
+  margin-top: 0;
+}
+
+footer h4 {
+  letter-spacing: 2px;
+  font-family: "Dancing Script", cursive;
+}
 /*# sourceMappingURL=index.css.map */

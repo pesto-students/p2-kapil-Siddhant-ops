@@ -305,3 +305,17 @@ main {
   }
 }
 
+footer {
+  width: 100vw;
+  padding: 0 7rem 2rem;
+  box-shadow: 1px 1px 10px #000;
+
+  h1 {
+    font-size: 8rem;
+    margin-top: 0;
+  }
+  h4 {
+    letter-spacing: 2px;
+    font-family: "Dancing Script", cursive;
+  }
+}
