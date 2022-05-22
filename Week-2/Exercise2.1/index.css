@@ -164,4 +164,178 @@ header ul li a::after {
 header ul li a:hover::after {
   width: 100%;
 }
+
+main {
+  width: 100vw;
+  padding: 0 7rem 2rem;
+}
+
+main .title {
+  font-size: 8rem;
+}
+
+main .featuredSection {
+  width: 100%;
+  min-height: 50vh;
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.5rem;
+}
+
+main .featuredSection .featured,
+main .featuredSection .articles {
+  height: 100%;
+}
+
+main .featuredSection .featured {
+  width: 60%;
+}
+
+main .featuredSection .featured img {
+  width: 100%;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+
+main .featuredSection .featured article {
+  margin-top: 2rem;
+}
+
+main .featuredSection article {
+  margin-top: 2rem;
+}
+
+main .featuredSection article h2 {
+  margin: 0;
+}
+
+main .featuredSection article h5 {
+  margin-top: 1rem;
+}
+
+main .featuredSection article a {
+  text-decoration: underline;
+}
+
+main .featuredSection .articles {
+  width: 40%;
+}
+
+main .cardGrid {
+  margin-top: 2rem;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+main .cardGrid .card {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+main .cardGrid .card h3,
+main .cardGrid .card h5 {
+  margin-top: 0;
+}
+
+main .cardGrid .card a {
+  text-decoration: underline;
+}
+
+.formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.formContainer div,
+.formContainer form {
+  width: 50%;
+}
+
+.formContainer div h1 {
+  letter-spacing: 1px;
+}
+
+.formContainer form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formContainer form span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.25rem;
+}
+
+.formContainer form span label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.formContainer form span input {
+  outline: none;
+  border: 1.5px solid black;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+}
+
+.formContainer form button {
+  cursor: pointer;
+  outline: none;
+  background: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid black;
+  padding: 1rem 3rem;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.formContainer form button:hover {
+  background: #131313;
+  color: aliceblue;
+}
 /*# sourceMappingURL=index.css.map */

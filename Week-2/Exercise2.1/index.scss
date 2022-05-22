@@ -150,3 +150,158 @@ header {
     }
   }
 }
+
+main {
+  width: 100vw;
+  padding: 0 7rem 2rem;
+
+  .title {
+    font-size: 8rem;
+  }
+
+  .featuredSection {
+    width: 100%;
+    min-height: 50vh;
+    padding: 2rem 0;
+    display: flex;
+    gap: 2.5rem;
+
+    .featured,
+    .articles {
+      height: 100%;
+    }
+
+    .featured {
+      width: 60%;
+      img {
+        width: 100%;
+        border-radius: 1.5rem;
+        -webkit-border-radius: 1.5rem;
+        -moz-border-radius: 1.5rem;
+        -ms-border-radius: 1.5rem;
+        -o-border-radius: 1.5rem;
+      }
+
+      article {
+        margin-top: 2rem;
+      }
+    }
+
+    article {
+      margin-top: 2rem;
+      h2 {
+        margin: 0;
+      }
+      h5 {
+        margin-top: 1rem;
+      }
+      a {
+        text-decoration: underline;
+      }
+    }
+
+    .articles {
+      width: 40%;
+    }
+  }
+
+  .cardGrid {
+    margin-top: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+
+    .card {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 1rem;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+
+      h3,
+      h5 {
+        margin-top: 0;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.formContainer {
+  display: flex;
+
+  div,
+  form {
+    width: 50%;
+  }
+
+  div {
+    h1 {
+      letter-spacing: 1px;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    span {
+      display: inline-flex;
+      flex-direction: column;
+      gap: 0.25rem;
+
+      label {
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-transform: capitalize;
+      }
+
+      input {
+        outline: none;
+        border: 1.5px solid black;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+      }
+    }
+
+    button {
+      cursor: pointer;
+      outline: none;
+      background: none;
+      width: fit-content;
+      border: 1px solid black;
+      padding: 1rem 3rem;
+      font-size: 1.25rem;
+      letter-spacing: 1px;
+      font-weight: 500;
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+      transition: 0.5s ease-in-out;
+      -webkit-transition: 0.5s ease-in-out;
+      -moz-transition: 0.5s ease-in-out;
+      -ms-transition: 0.5s ease-in-out;
+      -o-transition: 0.5s ease-in-out;
+
+      &:hover {
+        background: rgb(19, 19, 19);
+        color: aliceblue;
+      }
+    }
+  }
+}
+
