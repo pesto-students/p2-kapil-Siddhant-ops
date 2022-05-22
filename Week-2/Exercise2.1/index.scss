@@ -319,3 +319,13 @@ footer {
     font-family: "Dancing Script", cursive;
   }
 }
+
+@media only screen and (max-width: 1439px) {
+  main {
+    padding: 0 3.5rem 2rem;
+
+    .featuredSection {
+      gap: 1.5rem;
+    }
+  }
+}
