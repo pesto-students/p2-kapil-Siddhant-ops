@@ -66,6 +66,6 @@ getNumber()
     );
     return;
   })
-  .catch((reason) => {
+  .catch((value) => {
     console.log(`Promise ${promiseStates.rejected} ${value} is divisible by 5`);
   });
