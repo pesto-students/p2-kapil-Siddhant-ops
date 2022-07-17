@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/p2-kapil-Siddhant-ops/static/css/main.0f2aa9c9.css",
+    "main.js": "/p2-kapil-Siddhant-ops/static/js/main.756f1229.js",
+    "index.html": "/p2-kapil-Siddhant-ops/index.html",
+    "main.0f2aa9c9.css.map": "/p2-kapil-Siddhant-ops/static/css/main.0f2aa9c9.css.map",
+    "main.756f1229.js.map": "/p2-kapil-Siddhant-ops/static/js/main.756f1229.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f2aa9c9.css",
+    "static/js/main.756f1229.js"
+  ]
+}
