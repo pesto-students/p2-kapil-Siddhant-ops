@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Project title : Todo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Todo App
 
-## Available Scripts
+## Demo Link:
 
-In the project directory, you can run:
+---
 
-### `npm start`
+Access this project on [Github](https://pesto-students.github.io/p2-kapil-Siddhant-ops/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Content:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+- [About the project](#about-the-project)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies used](#technologies-used)
+- [Build](#build)
+- [Serve](#serve)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- Create a title of about the project with id about-the-project -->
 
-### `npm run build`
+# About the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is a simple todo app.
+It is a React app that allows you to add & mark them complete.
+The data is stored in the browser's local storage.
+The app is responsive and works on mobile and desktop.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository and run the following command:
 
-### `npm run eject`
+`npm install` or `yarn install` to install the dependencies.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+After that, run the following command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm start` or `yarn start` to start the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+the project is running on [localhost](http://localhost:3000)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Usage
 
-## Learn More
+There are 2 components in the app:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- TodoInput: This component allows you to add a new todo.
+- TodoList: This component displays the list of todos. It shows active todos and completed todos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Technologies used
+
+The app is built with React and uses the following technologies:
+
+- [React](https://reactjs.org/)
+- [Sass](https://sass-lang.com/)
+- [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
+# Build
+
+Run the following command to build the app:
+
+`npm run build` or `yarn build`
+
+# Serve
+
+Run the following command to install the dependencies serve:
+
+`npm install -g serve` or `yarn install -g serve`
+
+Then run the following command to start the app:
+
+`serve -s build` or `yarn serve -s build`
