@@ -4,13 +4,9 @@ React Todo App
 
 ## Demo Link:
 
----
-
 Access this project on [Github](https://pesto-students.github.io/p2-kapil-Siddhant-ops/)
 
 ## Table of Content:
-
----
 
 - [About the project](#about-the-project)
 - [Installation](#installation)
