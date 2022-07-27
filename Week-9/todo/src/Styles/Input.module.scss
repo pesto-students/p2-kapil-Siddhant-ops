@@ -1,0 +1,49 @@
+.inputContainer {
+  width: 100%;
+  border: 2px solid #00235a;
+  border-bottom: 1px solid #00235a;
+  border-radius: 0.75rem 0.75rem 0 0;
+  -webkit-border-radius: 0.75rem 0.75rem 0 0;
+  -moz-border-radius: 0.75rem 0.75rem 0 0;
+  -ms-border-radius: 0.75rem 0.75rem 0 0;
+  -o-border-radius: 0.75rem 0.75rem 0 0;
+
+  form {
+    width: 100%;
+    gap: 1.5rem;
+
+    input,
+    button {
+      padding: 1rem;
+      border: none;
+      outline: none;
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 1.15rem;
+      letter-spacing: 1px;
+      background: inherit;
+    }
+
+    input {
+      width: 75%;
+    }
+
+    button {
+      width: 25%;
+      font-weight: 400;
+      text-transform: capitalize;
+      border-left: 2px solid #00235a;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+      -webkit-transition: 0.3s ease-in-out;
+      -moz-transition: 0.3s ease-in-out;
+      -ms-transition: 0.3s ease-in-out;
+      -o-transition: 0.3s ease-in-out;
+
+      &:hover {
+        background-color: #00235ad7;
+        color: #bfbbffc4;
+      }
+    }
+  }
+}
