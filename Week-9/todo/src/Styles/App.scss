@@ -1,0 +1,68 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  max-width: 100%;
+  background-color: #bfbbffc4;
+
+  #root {
+    display: grid;
+    place-items: center;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  main {
+    margin: 2rem 0;
+    width: 40vw;
+    height: auto;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 28;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  max-width: 100%;
+  background-color: #bfbbffc4;
+
+  #root {
+    display: grid;
+    place-items: center;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  main {
+    margin: 2rem 0;
+    width: 40vw;
+    height: auto;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 28;
+  }
+}

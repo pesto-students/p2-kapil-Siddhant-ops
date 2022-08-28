@@ -1,0 +1,106 @@
+.tasksContainer {
+  width: 100%;
+  border: 2px solid #00235a;
+  border-top: 1px solid #00235a;
+  border-radius: 0 0 0.75rem 0.75rem;
+  -webkit-border-radius: 0 0 0.75rem 0.75rem;
+  -moz-border-radius: 0 0 0.75rem 0.75rem;
+  -ms-border-radius: 0 0 0.75rem 0.75rem;
+  -o-border-radius: 0 0 0.75rem 0.75rem;
+
+  ul {
+    list-style: none;
+    li {
+      padding: 1rem;
+      border-top: 1px solid #00235a;
+      display: flex;
+      justify-content: space-between;
+
+      &:first-child {
+        border-top: none;
+      }
+
+      &.listHeader {
+        h2 {
+          margin: 0;
+        }
+      }
+
+      div {
+        h5 {
+          margin-top: 0;
+        }
+      }
+
+      .content {
+        width: 70%;
+      }
+
+      .iconContainer {
+        width: 15%;
+
+        button {
+          cursor: pointer;
+          outline: none;
+          //border: none;
+          background: inherit;
+          padding: 0.25rem 0.5rem;
+          text-transform: capitalize;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.5rem;
+          border-radius: 1rem;
+          -webkit-border-radius: 1rem;
+          -moz-border-radius: 1rem;
+          -ms-border-radius: 1rem;
+          -o-border-radius: 1rem;
+          transition: 0.3s ease-in-out;
+          -webkit-transition: 0.3s ease-in-out;
+          -moz-transition: 0.3s ease-in-out;
+          -ms-transition: 0.3s ease-in-out;
+          -o-transition: 0.3s ease-in-out;
+
+          &:hover {
+            background-color: #00235ad7;
+            color: #bfbbffc4;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .tasksContainer {
+    ul {
+      li {
+        .iconContainer {
+          button {
+            width: unset;
+            padding: 1rem;
+            gap: unset;
+            .btnText {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .tasksContainer {
+    ul {
+      li {
+        .iconContainer {
+          button {
+            padding: .5rem;
+          }
+        }
+      }
+    }
+  }
+}
